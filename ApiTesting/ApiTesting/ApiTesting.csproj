@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk"
+﻿<Project Sdk="Microsoft.NET.Sdk"
 		 xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
   <PropertyGroup>
@@ -20,10 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Resource\configData.json">
+    <None Copy="Resource\configData.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Resource\testData.json">
+    <None Copy="Resource\testData.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
