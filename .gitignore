@@ -347,3 +347,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+*.pidb
+*.svclog
+*.scc
+
+# NuGet Packages
+*.nupkg
