@@ -20,10 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Copy="Resource\configData.json">
+    <None Update="Resource\configData.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Copy="Resource\testData.json">
+    <None Update="Resource\testData.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
